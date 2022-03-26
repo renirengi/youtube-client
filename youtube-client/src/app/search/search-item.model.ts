@@ -20,7 +20,7 @@ export interface ISnippet {
   defaultAudioLanguage: string,
 }
 
-export interface IIStatistics {
+export interface IStatistics {
   viewCount: string,
   likeCount: string,
   dislikeCount: string,
