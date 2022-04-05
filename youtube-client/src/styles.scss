@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  width: 1440px;
+  margin: 0 auto;
+
+
+app-header {
+  height: 8vh;
+  background-color:black;
+  padding: 2vh 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ .material-icons {
+   color: white;
+ }
+
+ .button {
+   background-color: rgba(47, 128, 237, 1);
+ }
+
+
+}

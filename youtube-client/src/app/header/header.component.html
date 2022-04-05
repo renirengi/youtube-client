@@ -1,1 +1,27 @@
-<p>header works!</p>
+
+
+  <img class="logo" src="../../assets/logo.png" alt="logo">
+    <div class="input-container">
+      <div>
+        <input
+        matInput
+        class="input-search"
+        placeholder="What are you want to find out?"
+       />
+      </div>
+      <button class=" button search-button"  mat-raised-button (click)="onToggle()">search</button>
+      <button mat-raised-button class="button settings-button">
+       <mat-icon aria-hidden="false" aria-label="Example settings icon">
+        <span class="material-icons"> settings </span>
+      </mat-icon>
+      </button>
+
+    </div>
+    <button mat-mini-fab class="button user-button">
+    <mat-icon aria-hidden="false" aria-label="Example perm_identity icon">
+      <span class="material-icons"> perm_identity </span>
+    </mat-icon>
+    </button>
+
+
+

@@ -1,0 +1,33 @@
+.input-container {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+
+  .input-search {
+    width: 400px;
+    height: 31px;
+    border-radius: 5px;
+
+  }
+
+  .search-button {
+    height: 100%;
+    color: white;
+    width: 80px;
+    margin: 0 2%;
+  }
+
+  .settings-button {
+    height: 100%;
+  }
+
+  .user-button {
+    border-radius: 30px;
+  }
+
+
+
+
+
+}
