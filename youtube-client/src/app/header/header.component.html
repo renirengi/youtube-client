@@ -1,5 +1,6 @@
 
 
+<div class="header-container">
   <img class="logo" src="../../assets/logo.png" alt="logo">
     <div class="input-container">
       <div>
@@ -10,7 +11,7 @@
        />
       </div>
       <button class=" button search-button"  mat-raised-button (click)="onToggle()">search</button>
-      <button mat-raised-button class="button settings-button">
+      <button mat-raised-button class="button settings-button" (click)="changeVisibilityFeatures()">
        <mat-icon aria-hidden="false" aria-label="Example settings icon">
         <span class="material-icons"> settings </span>
       </mat-icon>
@@ -22,6 +23,8 @@
       <span class="material-icons"> perm_identity </span>
     </mat-icon>
     </button>
+</div>
+<search-features *ngIf = "visibility"></search-features>
 
 
 

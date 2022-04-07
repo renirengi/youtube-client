@@ -10,7 +10,7 @@ export class AppComponent {
   public visibility: boolean = false;
 
 
-  changeVisibility (visibility:boolean) {
+  changeVisibilityResult (visibility:boolean) {
     this.visibility = visibility;
   }
  }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ISnippet } from '../search-item.model';
+import { VideosService } from 'src/app/services/videos.service';
 @Component({
   selector: 'search-item',
   templateUrl: './search-item.component.html',
@@ -11,5 +12,6 @@ export class SearchItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

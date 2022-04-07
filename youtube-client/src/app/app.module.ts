@@ -4,7 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VideosService } from './services/videos.service';
 import { HeaderComponent } from './header/header.component';
+import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -19,6 +21,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { SearchResultsComponent } from './search/search-results/search-results.component';
 import { SearchItemComponent } from './search/search-item/search-item.component';
+import { SearchFeaturesComponent } from './search-features/search-features.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { SearchItemComponent } from './search/search-item/search-item.component'
     HeaderComponent,
     SearchResultsComponent,
     SearchItemComponent,
+    SearchFeaturesComponent,
 
   ],
   imports: [
@@ -33,6 +37,7 @@ import { SearchItemComponent } from './search/search-item/search-item.component'
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatButtonModule,
     MatCardModule,
     MatCheckboxModule,
@@ -47,7 +52,7 @@ import { SearchItemComponent } from './search/search-item/search-item.component'
     MatRadioModule,
     MatSelectModule,
   ],
-  providers: [],
+  providers: [VideosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

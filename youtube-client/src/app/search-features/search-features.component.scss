@@ -1,0 +1,33 @@
+.features-container{
+  display: flex;
+  height: 4vh;
+  padding: 2vh 0;
+  background-color:black;
+  justify-content: space-around;
+  align-items: center;
+
+p {
+  color: white;
+}
+
+.features-button {
+  color: gold;
+  text-decoration: underline;
+  background-color: black;
+}
+
+.features-input-container {
+  color: gold;
+  width: 30%;
+  display: flex;
+  align-items: center;
+
+  .features-input {
+    width: 50%;
+    height: 2vh;
+    margin: 0 2%;
+  }
+
+}
+
+}

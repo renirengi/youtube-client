@@ -4,12 +4,15 @@ body{
 
 
 app-header {
-  height: 8vh;
-  background-color:black;
   padding: 2vh 0;
+  .header-container
+  {
   display: flex;
+  height: 8vh;
+  padding: 2vh 0;
+  background-color:black;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;}
 }
 
  .material-icons {
